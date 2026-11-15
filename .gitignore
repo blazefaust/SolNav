@@ -1,0 +1,11 @@
+python_backend/data/
+python_backend/cache/
+python_backend/generated/
+__pycache__/
+*.pyc
+.env
+flutter_app/build/
+flutter_app/.dart_tool/
+.idea/
+.vscode/
+*.apk
