@@ -1,6 +1,6 @@
 # SolNav
 
-SolNav (formerly Mars Mission Planner) is a tool for looking at Mars terrain and planning rover routes across it. It was built for NASA Space Apps 2026.
+SolNav is a tool for looking at Mars terrain and planning rover routes across it. It was built for NASA Space Apps 2026.
 
 You pick a region of Mars, and the app renders it as a 2D map or an interactive 3D surface using real elevation data from NASA's MOLA instrument. From there you can pull up terrain stats, switch NASA data layers on and off, and plan a route between two points. The route planner gives you four options (recommended, shortest, safest, lowest energy), shows an elevation profile, and can play the drive back with a little rover marker.
 
@@ -76,11 +76,6 @@ One thing worth knowing about the priority sliders: they only change the route w
 
 The UI was reworked to scale to small screens. Wide windows get a full sidebar, mid-size ones get an icon rail, and phones in landscape get the compact version with collapsible side panels. The mission planner switches to three tabs (Plan, Map, Routes) when there isn't room for three columns.
 
-## Known rough edges
-
-- Exporting from the mission planner on a phone saves into the app's private storage, so it's awkward to find the files. Desktop is fine.
-- The embedded globe and 3D view use `webview_flutter`, which doesn't exist on Windows or Linux. On those platforms the app opens them in your browser instead.
-- Route energy and ETA are rough estimates based on slope and distance only. Don't plan an actual rover with them.
 
 ## Data sources and credits
 
