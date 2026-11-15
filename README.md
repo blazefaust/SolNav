@@ -89,8 +89,8 @@ The UI was reworked to scale to small screens. Wide windows get a full sidebar, 
   - Mission page: https://pds-geosciences.wustl.edu/missions/mgs/index.htm
   - Data set record (MGS-M-MOLA-5-MEGDR-L3-V1.0): https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/catalog/megdrds.cat
   - Product format document (EGDR SIS): https://pds-geosciences.wustl.edu/mgs/urn-nasa-pds-mgs_mola_topography_derived/document/egdrsis.pdf
-- **Extra map layers:** streamed from NASA services through the backend proxy. [list the specific layers and services you use here]
-- **Mars globe:** Three.js globe with Mars textures. [credit the texture source here, and any NASA image or article links it shows]
+- **Extra map layers:** streamed from NASA services through the backend proxy. 
+- **Mars globe:** Three.js globe with Mars textures. 
 - **Software:** Flutter, Riverpod, FastAPI, Plotly and Three.js.
 
 All Mars data belongs to NASA and its mission teams. This project isn't affiliated with or endorsed by NASA.
